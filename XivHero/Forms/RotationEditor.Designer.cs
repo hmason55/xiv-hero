@@ -157,6 +157,7 @@ partial class RotationEditor
             this.ClientSize = new System.Drawing.Size(792, 261);
             this.Controls.Add(this.JobContainer);
             this.Controls.Add(this.RotationScrollContainer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(502, 300);
             this.Name = "RotationEditor";
             this.Text = "Rotation Editor";
